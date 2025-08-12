@@ -173,4 +173,101 @@ Error! operator is not correct
 * **Basic arithmetic operations** in C++.
 
 ---
+# TASK 3 — Tic-Tac-Toe Game ❌⭕
+
+## 📌 Description
+
+This is a **Tic-Tac-Toe** game implemented in **C++** using **Object-Oriented Programming (OOP)** principles.
+Two players take turns marking the spaces in a **3×3 grid** with their symbols (`X` or `O`). The player who succeeds in placing three of their symbols in a **horizontal**, **vertical**, or **diagonal** row wins.
+If all spaces are filled without a winner, the game ends in a **draw**.
+
+---
+
+## 🚀 Features
+
+* **Two-player mode** (Player X vs Player O).
+* Checks for **valid moves** before placing a symbol.
+* Declares **winner** immediately upon a winning move.
+* Detects **draw** when all cells are filled.
+* Uses **OOP concepts**:
+
+  * **Classes** (`Player`, `Board`, `TicTacToe`)
+  * **Encapsulation** for data safety.
+  * **Constructors** for initialization.
+
+---
+
+## 📂 How to Run
+
+1. **Compile the program**:
+
+   ```bash
+   g++ task3.cpp -o task3
+   ```
+2. **Run the program**:
+
+   ```bash
+   ./task3
+   ```
+
+---
+
+## 📋 Example Gameplay
+
+```
+Welcome to Tic-Tac-Toe!
+-------------
+|   |   |   | 
+-------------
+|   |   |   | 
+-------------
+|   |   |   | 
+-------------
+Player X (X), enter row (1-3) and column (1-3): 1 1
+-------------
+| X |   |   | 
+-------------
+|   |   |   | 
+-------------
+|   |   |   | 
+-------------
+Player O (O), enter row (1-3) and column (1-3): 1 2
+...
+Player X wins!
+```
+
+---
+
+## 🎯 Winning Conditions
+
+A player wins if they get **three in a row**:
+
+* **Horizontal** → Same row.
+* **Vertical** → Same column.
+* **Diagonal** → Either main diagonal or anti-diagonal.
+
+---
+
+## 🛠 Code Structure
+
+### **Class: Player**
+
+* Stores player **symbol** (`X`/`O`) and **name**.
+* Provides getters for symbol and name.
+
+### **Class: Board**
+
+* Maintains a **3×3 grid**.
+* Handles move validation and updates.
+* Checks for **win conditions**.
+* Tracks the **number of filled cells**.
+
+### **Class: TicTacToe**
+
+* Controls the game flow.
+* Manages turns between players.
+* Detects win/draw conditions.
+
+---
+
 

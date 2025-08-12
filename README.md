@@ -93,3 +93,84 @@ Play the game again with us!!
 * User input handling.
 
 ---
+# TASK 2 — Simple Calculator 🧮
+
+## 📌 Description
+
+This is a **basic calculator program** written in **C++**.
+It takes a mathematical operator (**+**, **-**, **\***, **/**) and two numbers from the user, then performs the selected operation and displays the result.
+
+If the user enters an invalid operator, the program displays an **error message**.
+
+---
+
+## 🚀 Features
+
+* Supports **addition**, **subtraction**, **multiplication**, and **division**.
+* Simple and easy-to-use command-line interface.
+* Handles invalid operator inputs gracefully.
+
+---
+
+## 📂 How to Run
+
+1. **Compile the program**:
+
+   ```bash
+   g++ task2.cpp -o task2
+   ```
+2. **Run the program**:
+
+   ```bash
+   ./task2
+   ```
+
+---
+
+## 📋 Example Gameplay
+
+**Run Example 1** (Addition)
+
+```
+Enter operator: +, -, *, /: +
+Enter two operands: 5 3
+5 + 3 = 8
+```
+
+**Run Example 2** (Division)
+
+```
+Enter operator: +, -, *, /: /
+Enter two operands: 10 4
+10 / 4 = 2.5
+```
+
+**Run Example 3** (Invalid Operator)
+
+```
+Enter operator: +, -, *, /: %
+Enter two operands: 10 3
+Error! operator is not correct
+```
+
+---
+
+## 🎯 Operators Supported
+
+| Operator | Operation      |
+| -------- | -------------- |
+| `+`      | Addition       |
+| `-`      | Subtraction    |
+| `*`      | Multiplication |
+| `/`      | Division       |
+
+---
+
+## 🛠 Code Concepts Used
+
+* **Switch case** for operator selection.
+* **User input handling** with `cin`.
+* **Basic arithmetic operations** in C++.
+
+---
+

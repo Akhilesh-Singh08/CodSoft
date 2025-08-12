@@ -93,6 +93,3 @@ Play the game again with us!!
 * User input handling.
 
 ---
-
-
-Do you want me to also **add a section for "Possible Improvements"** so your README looks even more professional? That would make it look like a GitHub project README.
